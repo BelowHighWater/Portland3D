@@ -1,0 +1,87 @@
+{
+  "LAYERS": [
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_4daed1dc_787c_41ae_8d64_857416224013",
+      "name": "Merged",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "OUTPUT_18a8531b_86c7_4238_9566_8e7839ae3c46",
+      "name": "Clipped (mask)",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "PortlandOutline_3adac1b9_d785_4d43_91cc_d956509f074e",
+      "name": "PortlandOutline",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "SEA_d5555ee0_4986_4c59_9586_d3d03555f365",
+      "name": "SEA",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "PortlandBathy_bd30069d_e537_4ac3_999b_bb2a7a04f268",
+      "name": "PortlandBathy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "PortlandTopo_2f966775_8c8d_46da_830e_4f1f540c7ee0",
+      "name": "PortlandTopo",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "BathyTopo_2946b4a9_1da6_405d_923b_f2d22975245d",
+      "name": "BathyTopo",
+      "properties": {
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Shading": true,
+        "checkBox_Sides": true,
+        "checkBox_Surroundings": false,
+        "checkBox_TransparentBackground": false,
+        "checkBox_Visible": true,
+        "colorButton_Color": "0x000000",
+        "comboBox_ClipLayer": "PortlandOutline_3adac1b9_d785_4d43_91cc_d956509f074e",
+        "comboBox_TextureSize": 100,
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_ImageFile": "",
+        "radioButton_MapCanvas": true,
+        "spinBox_Opacity": 100,
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3,
+        "toolButton_SideColor": "0xccbbaa"
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "FLAT",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_autoZShift": false,
+    "colorButton_Color": "0x000000",
+    "comboBox_MaterialType": 0,
+    "lineEdit_BaseSize": "10000",
+    "lineEdit_zFactor": "1.5",
+    "lineEdit_zShift": "0",
+    "radioButton_WGS84": true
+  }
+}
